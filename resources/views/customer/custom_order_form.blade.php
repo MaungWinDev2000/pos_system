@@ -21,7 +21,7 @@
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 		<link href="{{asset('css/tiny-slider.css')}}" rel="stylesheet">
 		<link href="{{asset('css/style1.css')}}" rel="stylesheet">
-		<title>Furni Free Bootstrap 5 Template for Furniture and Interior Design Websites by Untree.co </title>
+		<title>POS System </title>
 	</head>
 
 	<body>
@@ -49,7 +49,7 @@
 							<a class="nav-link" href="services.html">Services</a></li> -->
 						<!-- <li class="nav-item section @yield('')">
 							<a class="nav-link" href="{{route('logout')}}">Logout</a></li> -->
-						<li class="nav-item section @yield('')">
+						<li class="nav-item section active 	">
 							<a class="nav-link" href="{{url('/custom_order/create')}}">Custom Form</a></li>
 							@if(!auth()->guard('customer')->check())
 							<li class="nav-item section @yield('')">
@@ -275,7 +275,7 @@
 
 				<div class="row g-5 mb-5">
 					<div class="col-lg-4">
-						<div class="mb-4 footer-logo-wrap"><a href="#" class="footer-logo">Furni<span>.</span></a></div>
+						<div class="mb-4 footer-logo-wrap"><a href="#" class="footer-logo">POS<span>.</span></a></div>
 						<p class="mb-4">Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant</p>
 
 						<ul class="list-unstyled custom-social">

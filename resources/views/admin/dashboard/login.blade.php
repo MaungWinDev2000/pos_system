@@ -4,13 +4,13 @@
         <meta charset="utf-8">
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-        <title>Pages / Login - NiceAdmin Bootstrap Template</title>
+        <title>Login - POS</title>
         <meta content="" name="description">
         <meta content="" name="keywords">
 
         <!-- Favicons -->
-        <link href="{{asset('img/favicon.png')}}" rel="icon">
-        <link href="{{asset('img/apple-touch-icon.png')}}" rel="apple-touch-icon">
+        <link href="{{asset('img/pos_admin.png')}}" rel="icon">
+        <link href="{{asset('img/pos_admin.png')}}" rel="apple-touch-icon">
 
         <!-- Google Fonts -->
         <link href="https://fonts.gstatic.com" rel="preconnect">
@@ -46,8 +46,8 @@
 
                         <div class="d-flex justify-content-center py-4">
                             <a href="index.html" class="logo d-flex align-items-center w-auto">
-                            <img src="assets/img/logo.png" alt="">
-                            <span class="d-none d-lg-block">NiceAdmin</span>
+                            <img src="{{asset('/img/pos_admin.png')}}" alt="">
+                            <span class="d-none d-lg-block">POS Admin-Panel</span>
                             </a>
                         </div>
                         {{--  end logo  --}}

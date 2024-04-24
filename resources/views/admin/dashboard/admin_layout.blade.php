@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Nippon - Admin Panel</title>
+    <title>POS - Admin Panel</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="{{asset('img/nippon.png')}}" rel="icon">
-    <link href="{{asset('img/nippon.png')}}" rel="nippon">
+    <link href="{{asset('img/pos_admin.png')}}" rel="icon">
+    <link href="{{asset('img/pos_admin.png')}}" rel="nippon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.gstatic.com" rel="preconnect">
@@ -41,7 +41,7 @@
       <div class="d-flex align-items-center justify-content-between">
         <a href="{{'/'}}" class="logo d-flex align-items-center">
           <img src="assets/img/logo.png" alt="">
-          <span class="d-none d-lg-block">Nippon</span>
+          <span class="d-none d-lg-block">POS</span>
         </a>
         <i class="bi bi-list toggle-sidebar-btn"></i>
       </div><!-- End Logo -->
@@ -643,14 +643,14 @@
     <!-- ======= Footer ======= -->
     <footer id="footer" class="footer">
       <div class="copyright">
-        &copy; Copyright <strong><span>Nippon Concrete</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>POS</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">TTES IT Solution & Services</a>
+        Designed by <a href="https://bootstrapmade.com/">Maung Win</a>
       </div>
     </footer><!-- End Footer -->
 
